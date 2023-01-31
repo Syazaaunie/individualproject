@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.slider {
+    background-color: rgb(120, 162, 241);
+    width: 100%;
+    height: 70px;
+    color: black;
+    position: fixed;
+}
+
+.logo{
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+
+.menu{
+    margin-left: 600px;
+    padding-top: 28px;
+}
+
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 100px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu ul li a:hover{
+    color:slategrey;
+    font-style: italic;
+}
+
+.banner{
+    background-color: rgb(135, 163, 201);
+    height: 600px;
+    text-align: center;
+    color: rgb(47, 66, 115);
+}
+
+.banner img{
+    border-radius: 100px;
+    height: 250px;
+    border: 7px solid rgb(143, 154, 202);
+    margin-top: 100px;
+}
+
+.banner h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.banner button:hover{
+    background-color: rgb(216, 201, 180);
+    border: 1px solid rgb(117, 153, 220);
+}
+
+div.high1{
+    float: left;
+    width: 50%;
+    height: 300px;
+    background-color: cornflowerblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+}
+
+div.kotak1{
+    float: right;
+    width: 50%;
+    height: 400px;
+    background-color: cornflowerblue;
+}
+
+div.kotak2{
+    float: left;
+    width: 50%;
+    height: 300px;
+    background-color: cornflowerblue;
+}
+
+h1 span:before{
+content: '';
+animation: move infinite 8s ease;
+transform: translateY(50%);
+color: rgb(68, 68, 105);
+font-size: 50px;
+}
+
+@keyframes move{
+    0% {
+        content: 'My Website';
+    }
+    50%{
+        content: 'Syaza Aunie Balqis binti Rozali';
+    }
+    100%{
+        content: '2022912819';
+    }
+    0% {
+        content: 'D2BA2503C';
+    }
+}
+
+.box-1{
+    text-align: center;
+    color: black;
+    margin-top: 50px;
+    align-content: center;
+}
+
+.box-left, .box-center, .box-right{
+    width: 300px;
+    height: 320px;
+    background-color: cornflowerblue;
+    text-align: center;
+    padding: 30px 30px;
+    margin: 70px 25px 25px 55px;
+    border-radius: 10px;
+    float: left;
+}
+
+.box-left:hover, .box-center:hover, .box-right:hover{
+    background-color: rgb(198, 195, 151);
+}
+
+.box-1 h3,p{
+    margin-top: 10px;
+    margin-bottom: 13px;
+    padding: 0px;
+}
+
+.box Information{
+text-align: center;
+color:black;
+margin: 10px auto;
+margin-top: 500px;
+margin: 0px 20px;
+}
+
+.box Education{
+    float: left;
+    width: 100%;
+    height: 900px;
+}
+
+.box Hobby{
+    flex-direction: column;
+    padding: 100px;
+    align-items: center;
+    justify-content: center;
+    min-width: 20vh;
+}
+
+.footer{
+    background-color: cadetblue;
+    width: 100%;
+    height: 40px;
+    color: black;
+    padding: 3px;
+    margin: 50px auto 0px;
+}
